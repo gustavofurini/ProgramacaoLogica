@@ -60,7 +60,7 @@
   Cidades = []. 
   Pais = uruguai 
  
-  7)Encontre uma lista com todas as cidades, de um determinado estado e país. 
+  7)Encontre uma lista com todas as cidades, de um determinado estado e país.
   Resp esperada:  
   Cidades = [cordoba], 
   Estado = cordoba, 
@@ -205,5 +205,5 @@
   esposa deu à luz um filho (S1), que se tornou cunhado do meu pai, e meu tio. A esposa do meu pai, ou seja, 
   minha enteada, também teve um filho (S2). Usando o conhecimento de lógica, proposicional e predicativa, 
   que você já tem, represente a situação descrita por Wirth e, usando prolog ou a lógica matemática, prove que 
-  é o narrador pode ser considerado como sendo seu próprio avô.  
+  é o narrador pode ser considerado como sendo seu próprio avô.   
 -------------------------------------------------------------------------------------------------------------------------
