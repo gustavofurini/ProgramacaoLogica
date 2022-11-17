@@ -1,6 +1,6 @@
 # ProgramacaoLogica
 -------------------------------------------------------------------------------------------------------------------------
--> Aplicação Bagof:
+# Aplicação Bagof:
   Para  resolver  estes  exercícios  você  pode,  ou  não  desenvolver  seus  próprios  predicados.  Se  olptar  por  não, 
   todas  as  queries  criadas  para  responder  a  questão  devem  estar,  na  forma  de  comentários,  no  final  do  seu 
   arquivo  no Swish Prolog, online. Se optar por desenvolver suas próprias regras, os queries  para a chamada 
@@ -78,7 +78,7 @@
   Estado = terra_do_fogo, 
   Pais = argentina 
 -------------------------------------------------------------------------------------------------------------------------
--> ArvoreProlog:
+# ArvoreProlog:
   1.  Considere a seguinte lista de fatos dada por::  
   𝑝𝑎𝑖(𝑎,𝑏). 
   𝑝𝑎𝑖(𝑎,𝑐). 
@@ -111,7 +111,7 @@
   uma  lista  de  inteiros  𝐿,  devolve  uma  lista  𝐾 com  estes  inteiros  ordenados  segundo  o 
   algoritmo de merge sort. 
 -------------------------------------------------------------------------------------------------------------------------
--> CaminhoMaisCurto:
+# CaminhoMaisCurto:
   Já  vimos  como  usar  o  Prolog  para encontrar todos  os  caminhos  entre dois  vértices  em um 
   grafo, este é um passo importante para resolver um dos problemas fundamentais da análise 
   de  grafos,  encontrar  o  caminho  mais  curto.  Sem  usar  os  algoritmos  consagrados  para  esta 
@@ -120,7 +120,7 @@
   Para isso você deverá criar um banco de dados usando o predicado aresta/2 que contenha as 
   arestas de um grafo de, no mínimo, 20 vértices.  
 -------------------------------------------------------------------------------------------------------------------------
--> Cinema: 
+# Cinema: 
   No link: https://swish.swi-prolog.org/p/Cinema_PUC_2022-1.plLinks to an external site.
 
   Existe um banco de dados com informações sobre os filmes de Hollywood. Neste link também estão as considerações referentes a criação 
@@ -129,7 +129,7 @@
   Sua tarefa será criar regras para atender as questões apresentadas no link acima e publicar, como resposta, o link do seu arquivo,
   contendo o banco, e as regras que você criou. 
 -------------------------------------------------------------------------------------------------------------------------
--> CutProlog:
+# CutProlog:
   1.  Usando o banco de dados a seguir:  
   ℎ𝑜𝑚𝑒𝑚(𝑎𝑙𝑏𝑒𝑟𝑡). 
   ℎ𝑜𝑚𝑒𝑚(𝑏𝑜𝑏). 
@@ -149,19 +149,19 @@
  
   DICA MUITO IMPORTANTE: suas regras, obrigatoriamente precisam usar o cut (!).
 -------------------------------------------------------------------------------------------------------------------------
--> DFS - BFS: 
+# DFS - BFS: 
   Existem  dois  algoritmos  muito  importantes  na  busca  de  informações  em  grafos,  o  BFS  e  o 
   DFS.  Sua  pesquisa  será  explicar  estes  algoritmos  e  buscar  uma  implementação  destes 
   algoritmos em prolog. Lembre-se que deverá explicar como o código prolog está 
   funcionando. A prova de funcionamento deve ser realizada com um grafo composto de, pelo 
   menos, 10 arestas.
 -------------------------------------------------------------------------------------------------------------------------
--> Matrizes: 
+# Matrizes: 
   Pesquisar  a  existência  de  predicados  para  a  multiplicação  de  matrizes  e  para  o  cálculo  de 
   determinantes.  Seu  trabalho  será  explicar  estes  predicados,  caso  eles  existam,  ou  criar  os 
   predicados, caso eles não existam.
 -------------------------------------------------------------------------------------------------------------------------
--> ProblemaDoCaminho:
+# ProblemaDoCaminho:
   1.Considerando a base de conhecimento apresentadas a seguir, que representa os caminhos possíveis em um 
   labirinto  na  forma  de  uma  lista  de  adjacências  mostrando  que  pontos  deste  labirinto  são  conectados. 
   Considere também que todos os caminhos são unidirecionais. Ou seja, você pode ir do ponto 1 para o ponto 
@@ -197,7 +197,7 @@
   3.  Crie  um  conjunto    de  regras  em  prolog  que  permita  transformar  temperaturas  em  graus  Celsius  para 
   Fahrenheit e de Fahrenheit para Celsius. 
 -------------------------------------------------------------------------------------------------------------------------
--> ProblemaDoAvo: 
+# ProblemaDoAvo: 
   A  história  a  seguir  está  no  trabalho  de  N.  Wirth  (1976)  Algorithms  +  data  structures  =  programs.  Leia 
   cuidadosamente: Casei com uma viúva (vamos chamá-la de W) que tem uma filha adulta (chame-a de D). Meu 
   pai (F), que nos visitava com bastante frequência, apaixonou-se pela minha enteada e casou-se com ela. Por 
