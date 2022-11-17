@@ -17,18 +17,18 @@
   cidade(santa_rosa, la_pampa, argentina). 
   cidade(cordoba, cordoba, argentina). 
   
-  1)Encontre uma lista ordenada com todas as cidades da Argentina. 
+  1) Encontre uma lista ordenada com todas as cidades da Argentina. 
   Resp esperada:  
   Cidades = [cordoba, santa_rosa, ushuaia]. 
  
-  2)Encontre uma lista com as cidades de cada estado do Brasil. 
+  2) Encontre uma lista com as cidades de cada estado do Brasil. 
   Resp esperada:  
   Cidades = [curitiba, foz_do_iguaçu, londrina, maringa], 
   Estado = parana; 
   Cidades = [blumenau, joenville], 
   Estado = santa_catarina. 
  
-  3)Encontre uma lista ordenada das cidades de cada estado da base de conhecimento. 
+  3) Encontre uma lista ordenada das cidades de cada estado da base de conhecimento. 
   Resp esperada:  
   Cidades = [cordoba], 
   Estado = cordoba 
@@ -41,26 +41,26 @@
   Cidades = [ushuaia], 
   Estado = terra_do_fogo. 
  
-  4)Encontre uma lista ordenada dos estados de cada país da base de conhecimento. 
+  4) Encontre uma lista ordenada dos estados de cada país da base de conhecimento. 
   Resp esperada:  
   Estados = [cordoba, la_pampa, terra_do_fogo], 
   Pais = argentina 
   Estados = [parana, santa_catarina], 
   Pais = brasil 
  
-  5)Encontre uma lista com repetições e não ordenada dos estados de cada país da base de conhecimento. 
+  5) Encontre uma lista com repetições e não ordenada dos estados de cada país da base de conhecimento. 
   Resp esperada:  
   Estados = [terra_do_fogo, la_pampa, cordoba], 
   Pais = argentina 
   Estados = [parana, santa_catarina, santa_catarina, parana, parana, parana], 
   Pais = brasil 
  
-  6)Encontre uma lista com todas as cidades do Uruguai. 
+  6) Encontre uma lista com todas as cidades do Uruguai. 
   Resp esperada:  
   Cidades = []. 
   Pais = uruguai 
  
-  7)Encontre uma lista com todas as cidades, de um determinado estado e país.
+  7) Encontre uma lista com todas as cidades, de um determinado estado e país.
   Resp esperada:  
   Cidades = [cordoba], 
   Estado = cordoba, 
@@ -79,7 +79,7 @@
   Pais = argentina 
 -------------------------------------------------------------------------------------------------------------------------
 # ArvoreProlog:
-  1.  Considere a seguinte lista de fatos dada por::  
+  1) Considere a seguinte lista de fatos dada por::  
   𝑝𝑎𝑖(𝑎,𝑏). 
   𝑝𝑎𝑖(𝑎,𝑐). 
   𝑝𝑎𝑖(𝑏,𝑑). 
@@ -89,44 +89,44 @@
   b) Defina um predicado primo que seja verdadeiro se X e Y forem primos; 
   c)  Defina um predicado neto se X for neto de Y. 
  
-  DICA  MUITO  IMPORTANTE:  você  pode  usar  not(X)  para  negar  uma  variável,  constante, 
-  predicado ou o resultado de uma operação entre estes artefatos.  1.  Considere a seguinte lista de fatos dada por::  
-  𝑝𝑎𝑖(𝑎,𝑏). 
-  𝑝𝑎𝑖(𝑎,𝑐). 
-  𝑝𝑎𝑖(𝑏,𝑑). 
-  𝑝𝑎𝑖(𝑏,𝑒). 
-  𝑝𝑎𝑖(𝑐,𝑓). 
-  a) Defina um predicado irmao que seja verdadeiro se X e Y forem irmãos; 
-  b) Defina um predicado primo que seja verdadeiro se X e Y forem primos; 
-  c)  Defina um predicado neto se X for neto de Y. 
+    DICA  MUITO  IMPORTANTE:  você  pode  usar  not(X)  para  negar  uma  variável,  constante, 
+    predicado ou o resultado de uma operação entre estes artefatos.  1.  Considere a seguinte lista de fatos dada por::  
+    𝑝𝑎𝑖(𝑎,𝑏). 
+    𝑝𝑎𝑖(𝑎,𝑐). 
+    𝑝𝑎𝑖(𝑏,𝑑). 
+    𝑝𝑎𝑖(𝑏,𝑒). 
+    𝑝𝑎𝑖(𝑐,𝑓). 
+    a) Defina um predicado irmao que seja verdadeiro se X e Y forem irmãos; 
+    b) Defina um predicado primo que seja verdadeiro se X e Y forem primos; 
+    c)  Defina um predicado neto se X for neto de Y. 
  
-  DICA  MUITO  IMPORTANTE:  você  pode  usar  not(X)  para  negar  uma  variável,  constante, 
-  predicado ou o resultado de uma operação entre estes artefatos.  
+    DICA  MUITO  IMPORTANTE:  você  pode  usar  not(X)  para  negar  uma  variável,  constante, 
+    predicado ou o resultado de uma operação entre estes artefatos.  
   
-  2. Você  deve  procurar,  implementar  e  explicar,  um  predicado 𝑞𝑢𝑖𝑐𝑘𝑠𝑜𝑟𝑡(𝐿,𝐾) no  qual,  dada 
+  2) Você  deve  procurar,  implementar  e  explicar,  um  predicado 𝑞𝑢𝑖𝑐𝑘𝑠𝑜𝑟𝑡(𝐿,𝐾) no  qual,  dada 
   uma  lista  de  inteiros  𝐿,  devolve  uma  lista  𝐾 com  estes  inteiros  ordenados  segundo  o 
   algoritmo de quick sort. 
   
-  3. Você deve procurar, implementar e explicar, um predicado 𝑚𝑒𝑟𝑔𝑒𝑠𝑜𝑟𝑡(𝐿,𝐾) no qual, dada 
+  3) Você deve procurar, implementar e explicar, um predicado 𝑚𝑒𝑟𝑔𝑒𝑠𝑜𝑟𝑡(𝐿,𝐾) no qual, dada 
   uma  lista  de  inteiros  𝐿,  devolve  uma  lista  𝐾 com  estes  inteiros  ordenados  segundo  o 
   algoritmo de merge sort. 
 -------------------------------------------------------------------------------------------------------------------------
 # CaminhoMaisCurto:
-  Já  vimos  como  usar  o  Prolog  para encontrar todos  os  caminhos  entre dois  vértices  em um 
-  grafo, este é um passo importante para resolver um dos problemas fundamentais da análise 
-  de  grafos,  encontrar  o  caminho  mais  curto.  Sem  usar  os  algoritmos  consagrados  para  esta 
-  tarefa  (Dijsktra,  Bellman-Floyd,  etc.)  escreva  um  programa  em  Prolog  que  encontre  o 
-  caminho mais curto entre dois vértices quaisquer, considerando que o grafo é não direcional. 
-  Para isso você deverá criar um banco de dados usando o predicado aresta/2 que contenha as 
-  arestas de um grafo de, no mínimo, 20 vértices.  
+  1) Já  vimos  como  usar  o  Prolog  para encontrar todos  os  caminhos  entre dois  vértices  em um 
+     grafo, este é um passo importante para resolver um dos problemas fundamentais da análise 
+     de  grafos,  encontrar  o  caminho  mais  curto.  Sem  usar  os  algoritmos  consagrados  para  esta 
+     tarefa  (Dijsktra,  Bellman-Floyd,  etc.)  escreva  um  programa  em  Prolog  que  encontre  o 
+      caminho mais curto entre dois vértices quaisquer, considerando que o grafo é não direcional. 
+     Para isso você deverá criar um banco de dados usando o predicado aresta/2 que contenha as 
+     arestas de um grafo de, no mínimo, 20 vértices.  
 -------------------------------------------------------------------------------------------------------------------------
 # Cinema: 
   No link: https://swish.swi-prolog.org/p/Cinema_PUC_2022-1.plLinks to an external site.
 
-  Existe um banco de dados com informações sobre os filmes de Hollywood. Neste link também estão as considerações referentes a criação 
+   Existe um banco de dados com informações sobre os filmes de Hollywood. Neste link também estão as considerações referentes a criação 
   deste banco de dados, inclusive explicando como foram criados os fatos que relacionam os átomos envolvidos. 
-
-  Sua tarefa será criar regras para atender as questões apresentadas no link acima e publicar, como resposta, o link do seu arquivo,
+  
+  1) Sua tarefa será criar regras para atender as questões apresentadas no link acima e publicar, como resposta, o link do seu arquivo,
   contendo o banco, e as regras que você criou. 
 -------------------------------------------------------------------------------------------------------------------------
 # CutProlog:
@@ -147,22 +147,22 @@
   filhos e uma outra regra que indique, entre os termos apresentados, aqueles que são 
   primos.  
  
-  DICA MUITO IMPORTANTE: suas regras, obrigatoriamente precisam usar o cut (!).
+    DICA MUITO IMPORTANTE: suas regras, obrigatoriamente precisam usar o cut (!).
 -------------------------------------------------------------------------------------------------------------------------
 # DFS - BFS: 
-  Existem  dois  algoritmos  muito  importantes  na  busca  de  informações  em  grafos,  o  BFS  e  o 
+  1) Existem  dois  algoritmos  muito  importantes  na  busca  de  informações  em  grafos,  o  BFS  e  o 
   DFS.  Sua  pesquisa  será  explicar  estes  algoritmos  e  buscar  uma  implementação  destes 
   algoritmos em prolog. Lembre-se que deverá explicar como o código prolog está 
   funcionando. A prova de funcionamento deve ser realizada com um grafo composto de, pelo 
   menos, 10 arestas.
 -------------------------------------------------------------------------------------------------------------------------
 # Matrizes: 
-  Pesquisar  a  existência  de  predicados  para  a  multiplicação  de  matrizes  e  para  o  cálculo  de 
+  1) Pesquisar  a  existência  de  predicados  para  a  multiplicação  de  matrizes  e  para  o  cálculo  de 
   determinantes.  Seu  trabalho  será  explicar  estes  predicados,  caso  eles  existam,  ou  criar  os 
   predicados, caso eles não existam.
 -------------------------------------------------------------------------------------------------------------------------
 # ProblemaDoCaminho:
-  1.Considerando a base de conhecimento apresentadas a seguir, que representa os caminhos possíveis em um 
+  1) Considerando a base de conhecimento apresentadas a seguir, que representa os caminhos possíveis em um 
   labirinto  na  forma  de  uma  lista  de  adjacências  mostrando  que  pontos  deste  labirinto  são  conectados. 
   Considere também que todos os caminhos são unidirecionais. Ou seja, você pode ir do ponto 1 para o ponto 
   2 mas não pode ir do ponto 2 para o ponto 1. Escreva os predicados necessários para determinar, a partir de 
@@ -198,7 +198,7 @@
   Fahrenheit e de Fahrenheit para Celsius. 
 -------------------------------------------------------------------------------------------------------------------------
 # ProblemaDoAvo: 
-  A  história  a  seguir  está  no  trabalho  de  N.  Wirth  (1976)  Algorithms  +  data  structures  =  programs.  Leia 
+  1) A  história  a  seguir  está  no  trabalho  de  N.  Wirth  (1976)  Algorithms  +  data  structures  =  programs.  Leia 
   cuidadosamente: Casei com uma viúva (vamos chamá-la de W) que tem uma filha adulta (chame-a de D). Meu 
   pai (F), que nos visitava com bastante frequência, apaixonou-se pela minha enteada e casou-se com ela. Por 
   isso, meu pai se tornou meu genro e minha enteada se tornou minha madrasta. Alguns meses depois, minha 
